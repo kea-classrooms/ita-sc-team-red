@@ -1,0 +1,64 @@
+{
+    "tests": [
+      {
+        "name": "Testing the team config file",
+        "setup": "",
+        "run": ".github/classroom/teamconfig.sh",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 25
+      },
+      {
+        "name": "Test if the alias.undo is set in the .gitconfig file in the repo",
+        "setup": "",
+        "run": ".github/classroom/undo.sh",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 25
+      },
+      {
+        "name": "Test if the alias.tree is set in the .gitconfig file in the repo",
+        "setup": "",
+        "run": ".github/classroom/tree.sh",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 25
+      },
+      {
+        "name": "Test if the alias.mergetest is set in the .gitconfig file in the repo",
+        "setup": "",
+        "run": ".github/classroom/mergetest.sh",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 25
+      },
+      {
+        "name": "Test if All branches are merged to master",
+        "setup": "",
+        "run": ".github/classroom/merged.sh",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 25
+      },    
+      {
+        "name": "Test if push.default is set in .gitconfig",
+        "setup": "",
+        "run": ".github/classroom/pushdefault.sh",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 25
+      }     
+    ]
+  }
