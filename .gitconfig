@@ -3,3 +3,6 @@
   co = checkout
   st = status
   root = rev-parse --show-toplevel
+  
+[push]
+    default = current
